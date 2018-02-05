@@ -4,13 +4,13 @@ public class Aula {
 
 	int x = 1;
 	
-	String y = "Olá";
+	String y = "Ola";
 	
 	String z = "Mundo!";
 	
 	void soma(int a, int b) {
 		int soma = a + b;
-		System.out.println("A soma é: " + soma);
+		System.out.println("A soma Ã©: " + soma);
 	}
 	
 	int subtracao(int a, int b) {
