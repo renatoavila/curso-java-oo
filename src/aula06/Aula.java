@@ -20,6 +20,5 @@ public class Aula extends ClassB {
 		
 		ClassD d = new ClassD();
 		d.metedoD();
-		
 	}
 }

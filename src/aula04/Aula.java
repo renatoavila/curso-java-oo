@@ -1,23 +1,23 @@
 package aula04;
 
+import javax.swing.plaf.synth.SynthSeparatorUI;
+
 public class Aula {
 
-	int x = 1;
-	
+	int x = 1;	
 	String y = "Ola";
-	
 	String z = "Mundo!";
 	
 	void soma(int a, int b) {
 		int soma = a + b;
-		System.out.println("A soma é: " + soma);
+		System.out.println("A soma e: " + soma);
 	}
 	
 	int subtracao(int a, int b) {
 		return a - b;
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String...args) {
 		
 		Aula a = new Aula();
 		int x2 = a.x + 2;

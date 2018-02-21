@@ -18,7 +18,7 @@ class ClassD {
 		
 	}
 	
-	class D{
+	 class D{
 		
 	}
 }

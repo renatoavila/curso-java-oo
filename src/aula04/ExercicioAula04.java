@@ -4,7 +4,7 @@ public class ExercicioAula04 {
 
 	void tabuda(int x) {
 		for (int i = 1; i < 11; i++) {
-			System.out.println(i + "*" + x + "="+ i*x);
+			System.out.println( i + "*" + x + " = "+ (i*x));
 		}
 	}
 	

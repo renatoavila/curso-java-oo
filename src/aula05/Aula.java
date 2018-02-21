@@ -5,9 +5,10 @@ public class Aula {
 	public static void main(String[] args) {
 		
 		int a = 1;
+	
 		Integer a1 = 2;
 		Integer a2 = new Integer(2);
-		
+
 		byte b = 5;
 		Byte b1 = new Byte(b);
 		Byte b2 = new Byte("60");
@@ -20,5 +21,12 @@ public class Aula {
 		int d = b;
 		//short d1 = d;
 		//int d2 = d1;
+		
+		teste(0);
 	}
+	
+	public static void teste ( int a ) {
+		 Long teste = new Long(10);
+	}
+
 }
