@@ -16,14 +16,18 @@ public class Aula {
 		
 		Pessoa p1 = new Pessoa();
 		p1.setNome("Maria");
-		p1.setIdade(20);
-		
+		p1.setIdade(20);		
 		System.out.println(p1.getNome() + " - " + p1.getIdade());
-		
+
 		Pessoa p2 = new Pessoa();
 		p2.setNome("Joana");
-		p2.setIdade(-20);
-		
+		p2.setIdade(-20);		
 		System.out.println(p2.getNome() + " - " + p2.getIdade());
+		
+
+		PessoaMaiorIdade p3 = new PessoaMaiorIdade();
+		p3.setNome("Renato");
+		p3.setIdade(10);		
+		System.out.println(p3.getNome() + " - " + p3.getIdade());
 	}
 }
