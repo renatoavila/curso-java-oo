@@ -6,23 +6,23 @@ public class Livro {
 	private String autor;
 	private int paginas;
 	private boolean lancamento;
-	
+
 	public Livro() {
 		super();
 		System.out.println("Construtor default");
 	}
-	
+
 	public Livro(String titulo) {
-		//super();
+		// super();
 		this.titulo = titulo;
 	}
-	
+
 	public Livro(int paginas) {
 		this.paginas = paginas;
 	}
 
 	public Livro(String titulo, String autor, int paginas, boolean lancamento) {
-		//super(); 
+		// super();
 		this();
 		this.titulo = titulo;
 		this.autor = autor;
@@ -68,6 +68,5 @@ public class Livro {
 		return "Livro [titulo=" + titulo + ", autor=" + autor + ", paginas=" + paginas + ", lancamento=" + lancamento
 				+ "]";
 	}
-	
-	
+
 }

@@ -1,7 +1,5 @@
 package aula04;
 
-import javax.swing.plaf.synth.SynthSeparatorUI;
-
 public class Aula {
 
 	int x = 1;	

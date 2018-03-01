@@ -21,6 +21,5 @@ public class Aula {
 		p1.setHoras(Horas.TRINTA_HORAS);
 		System.out.println(p1.toString());
 		
-		
 	}
 }
